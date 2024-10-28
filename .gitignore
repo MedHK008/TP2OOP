@@ -1,0 +1,7 @@
+/.vscode
+/CMakeCache.txt
+/CMakeFiles
+/Makefile
+/TP2OOP
+/build
+/cmake_install.cmake
