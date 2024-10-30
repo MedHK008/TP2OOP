@@ -4,14 +4,12 @@
 #include "Employe.h"
 
 class Commercial : virtual public Employe {
-private:
-    
+protected:
     double commission;
     double ventesRealisees;
 
 public:
     Commercial(const std::string& nom, double tauxHoraire, int heuresTravaillees, double commission, double ventesRealisees);
-
     double calculerSalaire() const override;
     void afficher() const override;
 };

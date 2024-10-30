@@ -4,9 +4,8 @@
 #include "Employe.h"
 
 class Gestionnaire : virtual public Employe {
-private:
+protected:
     double salaireFixe;
-
 public:
     Gestionnaire(const std::string& nom, double salaireFixe,double tauxHoraire, int heuresTravaillees);
     double calculerSalaire() const override;

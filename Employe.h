@@ -2,10 +2,10 @@
 #define EMPLOYE_H
 
 #include <string>
+#include "Salarie.h"
 
-class Employe {
+class Employe : public Salarie {
 protected:
-    std::string nom;
     double tauxHoraire;
     int heuresTravaillees;
 public:
